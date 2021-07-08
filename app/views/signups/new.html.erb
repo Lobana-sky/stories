@@ -1,0 +1,8 @@
+<main>
+    <p>Contact us</p>
+    <%= form_for(@signup) do |f| %>
+        <%= f.text_field :firstname, :placeholder => "first name" %>
+        <%= f.text_field :email, :placeholder => "Email" %>
+        <%= f.submit "Join" %>
+    <% end %>
+</main>

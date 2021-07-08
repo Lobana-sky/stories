@@ -5,7 +5,9 @@
      margin-top: 100px;
  } 
 
- 
+ .thanks{
+     color:aqua;
+ }
 @media (min-width: 1200px) {
     .container {
       width: 970px;
